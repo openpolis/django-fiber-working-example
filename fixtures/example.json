@@ -1,0 +1,1474 @@
+[
+    {
+        "pk": 7, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "contentitem", 
+            "name": "content item", 
+            "app_label": "fiber"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "contenttype", 
+            "name": "content type", 
+            "app_label": "contenttypes"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "file", 
+            "name": "file", 
+            "app_label": "fiber"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "group", 
+            "name": "group", 
+            "app_label": "auth"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "image", 
+            "name": "image", 
+            "app_label": "fiber"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "logentry", 
+            "name": "log entry", 
+            "app_label": "admin"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "page", 
+            "name": "page", 
+            "app_label": "fiber"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "pagecontentitem", 
+            "name": "page content item", 
+            "app_label": "fiber"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "permission", 
+            "name": "permission", 
+            "app_label": "auth"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "session", 
+            "name": "session", 
+            "app_label": "sessions"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "site", 
+            "name": "site", 
+            "app_label": "sites"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "user", 
+            "name": "user", 
+            "app_label": "auth"
+        }
+    }, 
+    {
+        "pk": "ca5a8c4479cd472d1b4333961ad77a2a", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2012-11-06T21:52:43.475Z", 
+            "session_data": "ZWI4MzMxMzA0Y2IwY2U2ZTA2M2RhMzU1ODg4OTgxNDE5OWZmM2EyMzqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "sites.site", 
+        "fields": {
+            "domain": "example.com", 
+            "name": "example.com"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:56:52.172Z", 
+            "name": "Content in Main", 
+            "created": "2011-06-05T09:47:59Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}]", 
+            "protected": false, 
+            "content_html": "<div>\r\n\t<span class=\"dida_bt_article\" style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 12px !important; font-family: Arial, Helvetica, sans-serif !important; vertical-align: baseline; background-image: none !important; background-color: rgb(70, 70, 70) !important; color: rgb(255, 255, 255) !important; bottom: 0px !important; left: 0px !important; position: relative !important; width: auto; \"><span style=\"margin: 0px; padding: 4px 4px 4px 6px !important; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; display: block !important; background-image: none !important; position: relative !important; \"><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; background-color: rgb(246, 246, 246); \">&laquo;Qualcosa di veramente grosso&raquo; che cambier&agrave; le sorti delle elezioni americane: &laquo;una bomba&raquo; che affosser&agrave; il presidente Obama. Impazza su twitter e nei media americani la &quot;terribile&quot; rivelazione che ha in mente di fare l&#39;arcimilionario Donald Trump. Quando? Mercoled&igrave;, alle ore 18 italiane, proprio sul social dove il tycoon conta oltre un milione di follower.</span></span></span></div>\r\n<p style=\"margin: 1px 0px 15px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(70, 70, 70); line-height: 21px; background-color: rgb(246, 246, 246); \">CONTRO OBAMA 24 ORE SU 24 -&nbsp;L&#39;immobiliarista-magnate-star tv &egrave; un grande sostenitore del partito repubblicano e quindi di Mitt Romney. E non perde occasione per dare addosso al Presidente in carica. Ovvero &laquo;twitta&raquo; 24 ore su 24 denunciando ogni possibile malefatta di Obama, a partire da quello che secondo lui &egrave; il peccato originale dell&#39;afroamericano: come altri seguaci della teoria dei &quot;birther&quot;, il presidente non sarebbe nato alle Hawaii, bens&igrave; in Kenya. Cosa che lo avrebbe reso ineleggibile alla massima carica nel 2008.</p>\r\n<p style=\"margin: 1px 0px 15px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(70, 70, 70); line-height: 21px; background-color: rgb(246, 246, 246); \">(TENTATO) DIVORZIO?&nbsp;- Ma tornando all&#39;ordigno telematico, quale sarebbe dunque? Il&nbsp;<span style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: italic; font-family: inherit; vertical-align: baseline; \">Daily Mail</span>&nbsp;ha lanciato gi&agrave; un&#39;ipotesi, proveniente da fonti vicine a Trump. Ebbene il multimilionario vorrebbe sfregiare l&#39;immagine da &quot;mulino bianco&quot; che gli Obama sfoggiano in ogni dove: sempre innamorati, sempre abbracciati,<a href=\"/chi-siamo/mission/\">&nbsp;<span style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: italic; font-family: inherit; vertical-align: baseline; \">family firs</span>t</a>. Trump avrebbe delle carte, secondo le quali i due avrebbero inoltrato le pratiche per il divorzio in un periodo imprecisato del loro ventennale matrimonio. Sar&agrave; pur vero che ancora resiste l&#39;antico spirito puritano tra l&#39;elettorato d&#39;Oltreoceano, ma se cos&igrave; fosse, quella di Trump, pi&ugrave; che una bomba sembra un petardo.</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:46:08.591Z", 
+            "name": "Content in ASide", 
+            "created": "2011-06-05T09:48:11Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}, {\"url\": \"/progetti/open-coesione/\", \"title\": \"OpenCoesione\"}]", 
+            "protected": false, 
+            "content_html": "<p>Probabilmente la home deve essere differente</p>\r\n<p>&nbsp;</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:46:25.906Z", 
+            "name": "address", 
+            "created": "2011-06-05T09:53:32Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[]", 
+            "protected": false, 
+            "content_html": "<p>Via degli Equi, 42 - 00185 Roma - Italy</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:57:18.397Z", 
+            "name": "Presentazione Apple", 
+            "created": "2012-10-23T20:48:07.088Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/progetti/open-coesione/\", \"title\": \"OpenCoesione\"}, {\"url\": \"/\", \"title\": \"Home\"}]", 
+            "protected": false, 
+            "content_html": "<p><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">Tutto pronto qui a&nbsp;</span><strong style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(70, 70, 70); line-height: 21px; \">San Jose</strong><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">, dove al California Theatre andr&agrave; in scena l&rsquo;evento Apple in cui dovrebbero essere mostrati l&rsquo;</span><strong style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(70, 70, 70); line-height: 21px; \">iPad Mini</strong><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">&nbsp;e altre novit&agrave; (</span><a href=\"http://malditech.corriere.it/2012/10/23/apple-a-san-jose-per-lipad-mini-come-sara-gli-ultimi-rumor-2/\" name=\"&amp;lid=malditech.corriere.it/2012/10/23/apple-a-san-jos...ose-per-lipad-mini-come-sara-gli-ultimi-rumor-2/&amp;lpos=homearticle-box = 1__link-position = 2\" style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(44, 94, 181); line-height: 21px; \" target=\"_blank\">qui un riassunto di quello che &egrave; atteso</a><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">). Qui sotto la diretta del lancio, momento per momento.&nbsp;</span><span style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(70, 70, 70); line-height: 21px; text-decoration: underline; \">Si aggiorna da sola</span><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">, attraverso il mio profilo Twitter&nbsp;</span><a href=\"https://twitter.com/pottolina\" name=\"&amp;lid=https://twitter.com/pottolina&amp;lpos=homearticle-box = 1__link-position = 3\" style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(44, 94, 181); line-height: 21px; \" target=\"_blank\">@pottolina</a><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">. Non necessita di refresh della pagina.</span><br style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \" />\r\n<span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">Apple intanto ha comunicato che diffonder&agrave; in streaming la diretta video dell&rsquo;evento.&nbsp;</span><a href=\"http://www.apple.com/apple-events/october-2012/\" name=\"&amp;lid=www.apple.com/apple-events/october-2012/&amp;lpos=homearticle-box = 1__link-position = 4\" style=\"margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Georgia, Palatino, serif; vertical-align: baseline; color: rgb(44, 94, 181); line-height: 21px; \" target=\"_blank\">La trovate a questa pagina Internet</a><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">.</span></p>\r\n<p><span style=\"color: rgb(70, 70, 70); font-family: Georgia, Palatino, serif; font-size: 14px; line-height: 21px; \">Che succede se lo cambio.</span></p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-23T22:02:16.403Z", 
+            "name": "", 
+            "created": "2012-10-23T22:02:16.134Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/products/product-b/\", \"title\": \"Product B\"}]", 
+            "protected": false, 
+            "content_html": "<p>Contenuto di spalla per il product b</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-23T22:02:48.963Z", 
+            "name": "", 
+            "created": "2012-10-23T22:02:32.444Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/products/product-c/\", \"title\": \"Product C\"}, {\"url\": \"/products/product-c/downloads/\", \"title\": \"Downloads\"}]", 
+            "protected": false, 
+            "content_html": "<p>Contenuto di spalla per il product c</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:46:08.603Z", 
+            "name": "", 
+            "created": "2012-10-23T22:10:44.432Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}]", 
+            "protected": false, 
+            "content_html": "<p>Qui ci va un altro lancio, solo per la home.</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "fiber.contentitem", 
+        "fields": {
+            "content_markup": "", 
+            "updated": "2012-10-24T07:46:08.616Z", 
+            "name": "", 
+            "created": "2012-10-24T07:43:42.541Z", 
+            "template_name": "", 
+            "used_on_pages_data": "[{\"url\": \"/\", \"title\": \"Home\"}]", 
+            "protected": false, 
+            "content_html": "<p>Terzo contenuto aside</p>\r\n", 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 18, 
+            "updated": "2011-06-04T18:37:13Z", 
+            "level": 0, 
+            "parent": null, 
+            "title": "mainmenu", 
+            "url": "", 
+            "template_name": "", 
+            "created": "2011-06-04T18:37:13Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 1, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 3, 
+            "updated": "2012-10-24T07:52:14.515Z", 
+            "level": 1, 
+            "parent": 1, 
+            "title": "Home", 
+            "url": "/", 
+            "template_name": "home.html", 
+            "created": "2011-06-04T18:37:36Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 2, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 5, 
+            "updated": "2012-10-23T22:04:46.299Z", 
+            "level": 1, 
+            "parent": 1, 
+            "title": "Chi siamo", 
+            "url": "chi-siamo", 
+            "template_name": "", 
+            "created": "2011-06-04T18:38:07Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 4, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 15, 
+            "updated": "2012-10-23T22:03:39.535Z", 
+            "level": 1, 
+            "parent": 1, 
+            "title": "Progetti", 
+            "url": "progetti", 
+            "template_name": "", 
+            "created": "2011-06-04T18:38:23Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 6, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 8, 
+            "updated": "2012-10-23T22:03:53.767Z", 
+            "level": 2, 
+            "parent": 4, 
+            "title": "OpenCoesione", 
+            "url": "open-coesione", 
+            "template_name": "", 
+            "created": "2011-06-04T18:57:49Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 7, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 10, 
+            "updated": "2012-10-23T22:04:58.858Z", 
+            "level": 2, 
+            "parent": 4, 
+            "title": "Open Municipio", 
+            "url": "open-municipio", 
+            "template_name": "", 
+            "created": "2011-06-04T18:58:00Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 9, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 12, 
+            "updated": "2012-10-23T22:05:16.712Z", 
+            "level": 2, 
+            "parent": 4, 
+            "title": "OpenPolitici", 
+            "url": "open-politici", 
+            "template_name": "", 
+            "created": "2011-06-04T18:58:15Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 11, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 14, 
+            "updated": "2012-10-23T22:05:28.753Z", 
+            "level": 2, 
+            "parent": 4, 
+            "title": "OpenParlamento", 
+            "url": "open-parlamento", 
+            "template_name": "", 
+            "created": "2012-10-23T21:56:10.115Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 13, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 17, 
+            "updated": "2012-10-24T07:37:01.519Z", 
+            "level": 1, 
+            "parent": 1, 
+            "title": "Associazione", 
+            "url": "http://associazione.openpolis.it", 
+            "template_name": "", 
+            "created": "2012-10-24T07:36:05.298Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 16, 
+            "protected": false, 
+            "tree_id": 1, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 6, 
+            "updated": "2011-06-04T19:01:11Z", 
+            "level": 0, 
+            "parent": null, 
+            "title": "generalmenu", 
+            "url": "", 
+            "template_name": "", 
+            "created": "2011-06-04T19:01:11Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 1, 
+            "protected": false, 
+            "tree_id": 2, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 3, 
+            "updated": "2011-06-04T19:01:23Z", 
+            "level": 1, 
+            "parent": 19, 
+            "title": "Disclaimer", 
+            "url": "disclaimer", 
+            "template_name": "", 
+            "created": "2011-06-04T19:01:23Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 2, 
+            "protected": false, 
+            "tree_id": 2, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "fiber.page", 
+        "fields": {
+            "rght": 5, 
+            "updated": "2012-10-23T22:07:04.236Z", 
+            "level": 1, 
+            "parent": 19, 
+            "title": "Dichiarazione privacy", 
+            "url": "privacy-statement", 
+            "template_name": "", 
+            "created": "2011-06-04T22:04:07Z", 
+            "mark_current_regexes": "", 
+            "redirect_page": null, 
+            "lft": 4, 
+            "protected": false, 
+            "tree_id": 2, 
+            "is_public": true, 
+            "show_in_menu": true, 
+            "metadata": null
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 0, 
+            "block_name": "main", 
+            "content_item": 1, 
+            "page": 2
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 1, 
+            "block_name": "aside", 
+            "content_item": 2, 
+            "page": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 0, 
+            "block_name": "main", 
+            "content_item": 4, 
+            "page": 8
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": null, 
+            "block_name": "aside", 
+            "content_item": 2, 
+            "page": 8
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 0, 
+            "block_name": "aside", 
+            "content_item": 5, 
+            "page": 9
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 0, 
+            "block_name": "aside", 
+            "content_item": 6, 
+            "page": 10
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 2, 
+            "block_name": "aside", 
+            "content_item": 7, 
+            "page": 2
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 3, 
+            "block_name": "aside", 
+            "content_item": 8, 
+            "page": 2
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "fiber.pagecontentitem", 
+        "fields": {
+            "sort": 1, 
+            "block_name": "main", 
+            "content_item": 4, 
+            "page": 2
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "fiber.image", 
+        "fields": {
+            "updated": "2012-10-23T21:01:41.357Z", 
+            "title": "uploaded", 
+            "image": "uploads/images/depp_logo.png", 
+            "created": "2012-10-23T21:01:41.356Z", 
+            "height": 75, 
+            "width": 164
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_logentry", 
+            "name": "Can add log entry", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_logentry", 
+            "name": "Can change log entry", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_logentry", 
+            "name": "Can delete log entry", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_group", 
+            "name": "Can add group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_group", 
+            "name": "Can change group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_group", 
+            "name": "Can delete group", 
+            "content_type": 2
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_permission", 
+            "name": "Can add permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_permission", 
+            "name": "Can change permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_permission", 
+            "name": "Can delete permission", 
+            "content_type": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_user", 
+            "name": "Can add user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_user", 
+            "name": "Can change user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_user", 
+            "name": "Can delete user", 
+            "content_type": 3
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_contenttype", 
+            "name": "Can add content type", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_contenttype", 
+            "name": "Can change content type", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_contenttype", 
+            "name": "Can delete content type", 
+            "content_type": 4
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_contentitem", 
+            "name": "Can add content item", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_contentitem", 
+            "name": "Can change content item", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_contentitem", 
+            "name": "Can delete content item", 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_file", 
+            "name": "Can add file", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_file", 
+            "name": "Can change file", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_file", 
+            "name": "Can delete file", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_image", 
+            "name": "Can add image", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_image", 
+            "name": "Can change image", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_image", 
+            "name": "Can delete image", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_page", 
+            "name": "Can add page", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_page", 
+            "name": "Can change page", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_page", 
+            "name": "Can delete page", 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_pagecontentitem", 
+            "name": "Can add page content item", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_pagecontentitem", 
+            "name": "Can change page content item", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_pagecontentitem", 
+            "name": "Can delete page content item", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_session", 
+            "name": "Can add session", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_session", 
+            "name": "Can change session", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_session", 
+            "name": "Can delete session", 
+            "content_type": 5
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_site", 
+            "name": "Can add site", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_site", 
+            "name": "Can change site", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_site", 
+            "name": "Can delete site", 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "admin", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2012-10-23T21:52:43.468Z", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "pbkdf2_sha256$10000$a8PaVLt0XaTr$xxxINAe/XgBbTO8fzvmcetvZjZVldbFR9Iikk1hOyIA=", 
+            "email": "guglielmo@openpolis.it", 
+            "date_joined": "2012-10-23T17:35:29.840Z"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:57:18.399Z", 
+            "object_repr": "Presentazione Apple", 
+            "object_id": "4", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:57:04.177Z", 
+            "object_repr": "Presentazione Apple", 
+            "object_id": "4", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:52:14.520Z", 
+            "object_repr": "Home", 
+            "object_id": "2", 
+            "change_message": "Changed template_name.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:52:07.843Z", 
+            "object_repr": "Home", 
+            "object_id": "2", 
+            "change_message": "No fields changed.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-24T07:43:42.542Z", 
+            "object_repr": "Terzo contenuto aside", 
+            "object_id": "8", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:37:01.523Z", 
+            "object_repr": "Associazione", 
+            "object_id": "23", 
+            "change_message": "Changed url and redirect_page.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-24T07:36:20.763Z", 
+            "object_repr": "Associazione", 
+            "object_id": "23", 
+            "change_message": "Changed redirect_page.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-24T07:36:05.299Z", 
+            "object_repr": "Associazione", 
+            "object_id": "23", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T22:10:44.433Z", 
+            "object_repr": "Qui ci va un altro lancio, solo per la home.", 
+            "object_id": "7", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:08:37.394Z", 
+            "object_repr": "Content in ASide", 
+            "object_id": "2", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:07:04.238Z", 
+            "object_repr": "Dichiarazione privacy", 
+            "object_id": "21", 
+            "change_message": "Changed title.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:05:28.758Z", 
+            "object_repr": "OpenParlamento", 
+            "object_id": "22", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:05:16.718Z", 
+            "object_repr": "OpenPolitici", 
+            "object_id": "10", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:04:58.863Z", 
+            "object_repr": "Open Municipio", 
+            "object_id": "9", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:04:46.306Z", 
+            "object_repr": "Chi siamo", 
+            "object_id": "3", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:03:53.772Z", 
+            "object_repr": "OpenCoesione", 
+            "object_id": "8", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:03:39.540Z", 
+            "object_repr": "Progetti", 
+            "object_id": "4", 
+            "change_message": "Changed title and url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T22:02:32.445Z", 
+            "object_repr": "Contenuto di spalla per il product c", 
+            "object_id": "6", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T22:02:16.135Z", 
+            "object_repr": "Contenuto di spalla per il product b", 
+            "object_id": "5", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T22:01:42.064Z", 
+            "object_repr": "address", 
+            "object_id": "3", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:59:51.667Z", 
+            "object_repr": "address", 
+            "object_id": "3", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:56:55.158Z", 
+            "object_repr": "Prodotto D", 
+            "object_id": "22", 
+            "change_message": "No fields changed.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T21:56:10.116Z", 
+            "object_repr": "Prodotto D", 
+            "object_id": "22", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:53:47.244Z", 
+            "object_repr": "Content in ASide", 
+            "object_id": "2", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:51:40.633Z", 
+            "object_repr": "Product A", 
+            "object_id": "8", 
+            "change_message": "Added page content item \"PageContentItem object\".", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T21:49:47.161Z", 
+            "object_repr": "News", 
+            "object_id": "22", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:02:32.479Z", 
+            "object_repr": "Content in Main", 
+            "object_id": "1", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T21:00:47.231Z", 
+            "object_repr": "Content in Main", 
+            "object_id": "1", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T20:48:47.187Z", 
+            "object_repr": "Presentazione Apple", 
+            "object_id": "4", 
+            "change_message": "Changed name.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T20:48:07.089Z", 
+            "object_repr": "Tutto pronto qui a&nbsp;San Jose, dove al Californ...", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T20:20:00.146Z", 
+            "object_repr": "address", 
+            "object_id": "3", 
+            "change_message": "Changed content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T20:19:54.546Z", 
+            "object_repr": "Content in Main", 
+            "object_id": "1", 
+            "change_message": "Changed name and content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T20:19:47.046Z", 
+            "object_repr": "Content in ASide", 
+            "object_id": "2", 
+            "change_message": "Changed name and content_html.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T17:58:03.828Z", 
+            "object_repr": "Descrizione chi siamo", 
+            "object_id": "1", 
+            "change_message": "Changed name.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T17:57:40.537Z", 
+            "object_repr": "Chi siamo", 
+            "object_id": "2", 
+            "change_message": "Added page content item \"PageContentItem object\".", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T17:57:29.356Z", 
+            "object_repr": "main_content", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T17:54:46.820Z", 
+            "object_repr": "Chi siamo", 
+            "object_id": "2", 
+            "change_message": "Changed url.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T17:54:34.947Z", 
+            "object_repr": "Chi siamo", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2012-10-23T17:51:31.932Z", 
+            "object_repr": "Home", 
+            "object_id": "1", 
+            "change_message": "Changed template_name.", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2012-10-23T17:50:58.262Z", 
+            "object_repr": "Home", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
+        }
+    }
+]
